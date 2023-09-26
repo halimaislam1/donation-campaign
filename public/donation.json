@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/Hpyrszc/Health.png",
+      "category_name": "Health",
+      "title": "Clean water for children",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_and_button_bg": "#0052FF",
+      "description": "Support our mission to provide quality education to underprivileged children. Your donation will make a difference in their lives.",
+      "price": "$50"
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/pxr3kWY/Education.png",
+      "category_name": "Education",
+      "title": "Good education",
+      "category_bg": "#FF444A33",
+      "card_bg": "#FF444A26",
+      "text_and_button_bg": "#FF444A",
+      "description": "Join us in ensuring access to clean and safe drinking water in remote communities. Your contribution matters.",
+      "price": "$30"
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/PhqwwJj/Clothing.png",
+      "category_name": "Clothing",
+      "title": "Used Clothing Drive",
+      "category_bg": "#79C23F33",
+      "card_bg": "#79C23F26",
+      "text_and_button_bg": "#79C23F",
+      "description": "Help us conserve natural habitats and protect endangered species. Every donation counts towards a greener planet.",
+      "price": "$40"
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/D1c9KcY/Food.png",
+      "category_name": "Food",
+      "title": "Better Food for Everyone",
+      "category_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_and_button_bg": "#F87147",
+      "description": "Be a part of our mission to eradicate hunger in local neighborhoods. Your support can change lives.",
+      "price": "$25"
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/D1c9KcY/Food.png",
+      "category_name": "Food",
+      "title": "Better Food for Everyone",
+      "category_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_and_button_bg": "#F87147",
+      "description": "Support programs that empower women and girls with education, healthcare, and economic opportunities.",
+      "price": "$35"
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/PhqwwJj/Clothing.png",
+      "category_name": "Clothing",
+      "title": "Used Clothing Drive",
+      "category_bg": "#79C23F33",
+      "card_bg": "#79C23F26",
+      "text_and_button_bg": "#79C23F",
+      "description": "Help us provide immediate assistance to those affected by natural disasters. Your donation can save lives.",
+      "price": "$50"
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/pxr3kWY/Education.png",
+      "category_name": "Education",
+      "title": "Good education",
+      "category_bg": "#FF444A33",
+      "card_bg": "#FF444A26",
+      "text_and_button_bg": "#FF444A",
+      "description": "Contribute to preserving our cultural heritage and promoting the arts in our community.",
+      "price": "$30"
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/Hpyrszc/Health.png",
+      "category_name": "Health",
+      "title": "Clean water for children",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_and_button_bg": "#0052FF",
+      "description": "Show your appreciation to our veterans by supporting programs that enhance their well-being and opportunities.",
+      "price": "$40"
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/Hpyrszc/Health.png",
+      "category_name": "Health",
+      "title": "Clean water for children",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_and_button_bg": "#0052FF",
+      "description": "Join the fight against cancer by funding innovative research projects aimed at finding a cure.",
+      "price": "$45"
+    },
+    {
+      "id": 10,
+      "img": "https://i.ibb.co/pxr3kWY/Education.png",
+      "category_name": "Education",
+      "title": "Good education",
+      "category_bg": "#FF444A33",
+      "card_bg": "#FF444A26",
+      "text_and_button_bg": "#FF444A",
+      "description": "Help refugees rebuild their lives with access to shelter, education, and essential services.",
+      "price": "$35"
+    },
+    {
+      "id": 11,
+      "img": "https://i.ibb.co/PhqwwJj/Clothing.png",
+      "category_name": "Clothing",
+      "title": "Used Clothing Drive",
+      "category_bg": "#79C23F33",
+      "card_bg": "#79C23F26",
+      "text_and_button_bg": "#79C23F",
+      "description": "Support the transition to clean and renewable energy sources for a sustainable future.",
+      "price": "$50"
+    },
+    {
+      "id": 12,
+      "img": "https://i.ibb.co/D1c9KcY/Food.png",
+      "category_name": "Food",
+      "title": "Better Food for Everyone",
+      "category_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_and_button_bg": "#F87147",
+      "description": "Raise awareness and provide resources for mental health support to improve the well-being of individuals and communities.",
+      "price": "$30"
+    }
+  ]
+  
