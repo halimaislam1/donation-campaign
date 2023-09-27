@@ -4,7 +4,7 @@ const NavBar = () => {
     // className = 'link'
     const links = <>
         <li><NavLink  to='/'>Home</NavLink></li>
-        <li><NavLink to='/donation'>Donation</NavLink></li>
+        <li><NavLink  to='/donation'>Donation</NavLink></li>
         <li><NavLink to='/statictics'>Statistics</NavLink></li>
     </>
 

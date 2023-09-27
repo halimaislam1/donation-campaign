@@ -9,8 +9,11 @@ import {
 
 import Home from './Component/Home/Home';
 import Root from './Component/Root/Root';
-import Donation from './Component/Donation/Donation';
+// import Donation from './Component/Donations/Donations';
 import ErrorPage from './Component/ErrorPage/ErrorPage';
+// import DonationCard from './Component/DonationCard/DonationCard';
+import DonationsDetails from './Component/DonationDetails/DonationsDetails';
+
 
 const router = createBrowserRouter([
   {
@@ -24,8 +27,9 @@ const router = createBrowserRouter([
       },
       {
         path: '/donation',
-        element: <Donation></Donation>
-      }
+        element: <DonationsDetails></DonationsDetails>
+      },
+      
 
     ]
   },
