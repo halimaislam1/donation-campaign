@@ -19,7 +19,7 @@ const NavBar = () => {
                         {links}
                     </ul>
                 </div>
-                <img  src="logo.png" alt="donation capaign logo" />
+                <img  src="/logo.png" alt="donation capaign logo" />
                 
             </div>
             <div className="navbar-end hidden lg:flex mr-20  ">
