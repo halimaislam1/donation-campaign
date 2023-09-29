@@ -1,8 +1,12 @@
 .overlay {
-    position: absolute;
-    top: 0;
+    position: absolute; 
+    background: rgba(57, 57, 57, 0.7);
+    display: flex;
+}
+
+.overlay_1 {
     left: 0;
-    width: 50%;
-    height: 40%;
-    z-index: 1; /* Adjust the z-index as needed to control the overlay's stacking order */
+    bottom: 0;
+    width: 100%;
+    padding: 2.5rem;
 }

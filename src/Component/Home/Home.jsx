@@ -1,6 +1,6 @@
 import Banner from "../Banner/Banner";
 import DonationCard from "../DonationCard/DonationCard";
-import NavBar from "../NavBar/NavBar";
+
 
 const Home = () => {
     return (
