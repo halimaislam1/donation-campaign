@@ -18,10 +18,10 @@ const NavBar = () => {
                         {links}
                     </ul>
                 </div>
-                <img  src="/logo.png" alt="donation capaign logo" />
+                <img  className="lg:ml-0 md:ml-56" src="/logo.png" alt="donation capaign logo" />
                 
             </div>
-            <div className="navbar-end hidden lg:flex mr-20  ">
+            <div className="navbar-end hidden lg:flex lg:mr-20  ">
                 <ul className="menu menu-horizontal px-1 text-red-500 ">
                     {links}
                 </ul>

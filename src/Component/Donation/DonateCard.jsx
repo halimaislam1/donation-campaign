@@ -7,7 +7,7 @@ const DonateCard = ({card}) => {
 
     return (
         <div className="mb-10">
-            <div style={{backgroundColor:card_bg}} className="card card-side shadow-xl h-[200px] w-[400px] lg:w-[600px] mx-auto mt-5">
+            <div style={{backgroundColor:card_bg}} className="card card-side shadow-xl h-[200px] w-[400px] md:w-[350px] lg:w-[600px] mx-auto mt-8">
                 <figure><img className="h-[200px] w-[200px]" src={img} alt="donate"/></figure>
                 <div className="card-body">
                     <p ><small style={{color:text_and_button_bg,backgroundColor:category_bg,padding: '4px'}}>{category_name}</small></p>
