@@ -21,7 +21,7 @@ const DonationsDetails = () => {
 
         const donateItems = JSON.parse(localStorage.getItem('donation'))
 
-        localStorage.setItem('donation', addedDonationsArray)
+        // localStorage.setItem('donation', addedDonationsArray)
         if (!donateItems) {
             addedDonationsArray.push(card)
             localStorage.setItem('donation', JSON.stringify(addedDonationsArray))
@@ -37,7 +37,7 @@ const DonationsDetails = () => {
                 });
             }
             else {
-                toast('already exist');
+               toast('already exist');
             }}
     }
 

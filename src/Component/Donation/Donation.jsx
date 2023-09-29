@@ -5,7 +5,7 @@ import DonateCard from "./DonateCard";
 const Donation = () => {
 
     const [donation,setDonation] = useState([]);
-    const [noDonateFound,setNoDonateFound] = useState(false);
+    const [noDonationFound,setNoDonationFound] = useState('');
     const [showAll,setShowAll] = useState(4);
 
     useEffect(()=>{
@@ -14,14 +14,14 @@ const Donation = () => {
             setDonation(donateItem);
         }
         else{
-            setNoDonateFound('Donation not found')
+            setNoDonationFound('Donation not found')
         }
     },[])
 
     return (
         <div>
             {
-                noDonateFound ? <p className="h-[80vh] text-2xl flex justify-center items-center">{noDonateFound}</p> 
+                noDonationFound ? <p className="h-[80vh] text-2xl flex justify-center items-center">{noDonationFound}</p> 
                 : 
                 <div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

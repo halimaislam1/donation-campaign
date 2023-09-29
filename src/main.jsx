@@ -14,8 +14,9 @@ import ErrorPage from './Component/ErrorPage/ErrorPage';
 // import DonationCard from './Component/DonationCard/DonationCard';
 import DonationsDetails from './Component/DonationDetails/DonationsDetails';
 import Donation from './Component/Donation/Donation';
-import DonationCard from './Component/DonationCard/DonationCard';
-import Cards from './Component/Cards/Cards';
+// import DonationCard from './Component/DonationCard/DonationCard';
+// import Cards from './Component/Cards/Cards';
+import Statistics from './Component/statictics/statictics';
 
 
 const router = createBrowserRouter([
@@ -38,7 +39,11 @@ const router = createBrowserRouter([
         element: <Donation></Donation>,
         loader: () => fetch('/donations.json')
       },
-      
+      {
+        path: '/statictics',
+        element:<Statistics></Statistics>,
+        loader: () => fetch('/donations.json')
+      }
     ]
   },
 ]);
