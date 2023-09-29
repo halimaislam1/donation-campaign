@@ -37,7 +37,9 @@ const DonationsDetails = () => {
                 });
             }
             else {
-               toast('already exist');
+                toast.success('Cannt added again', {
+                    position: toast.POSITION.TOP_CENTER
+                });
             }}
     }
 
@@ -51,11 +53,11 @@ const DonationsDetails = () => {
                     <button onClick={handleDonateButton} className={` text-sm lg:text-xl absolute bottom-3 left-5 font-semibold  px-2 py-3 text-white rounded-md cursor-pointer
                     `}
                         style={{ backgroundColor: card.text_and_button_bg }}
-                    >Details & $290</button>
+                    >Donation {card.price}</button>
                 </div>
             </div>
             <h1 className='mt-4 text-2xl lg:text-3xl font-bold ml-12 lg:ml-80 pl-3 '>{card.title}</h1>
-            <p className=' lg:ml-80 pl-16 lg:pl-11 font-md lg:text-xl'>{card.description}</p>
+            <p className=' lg:ml-80 pl-16 lg:pl-3 font-sm lg:text-xl'>{card.description}</p>
             <ToastContainer />
         </div>
     );
