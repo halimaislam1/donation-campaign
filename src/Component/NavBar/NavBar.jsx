@@ -18,7 +18,7 @@ const NavBar = () => {
                         {links}
                     </ul>
                 </div>
-                <img  className="lg:ml-0 md:ml-56" src="/logo.png" alt="donation capaign logo" />
+                <img  className="lg:ml-0 md:ml-56" src="https://i.ibb.co/bKHVkR8/Logo.png" alt="donation capaign logo" />
                 
             </div>
             <div className="navbar-end hidden lg:flex lg:mr-20  ">
