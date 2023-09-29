@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { useLoaderData } from "react-router-dom";
-// import SearchDonation from "./SearchDonation";
 
 const Banner = ({handleCategoryNameSearch}) => {
     
@@ -19,7 +16,6 @@ const Banner = ({handleCategoryNameSearch}) => {
                     </div>
                 </div>
             </div>
-            {/* <SearchDonation  search={searched}></SearchDonation> */}
         </div>
     );
 };
